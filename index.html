@@ -25,20 +25,27 @@
 
       <h1 class="page-header">
         JukeBox
-
         <!-- Play button -->
-        <button id="play-button" class="btn btn-lg btn-primary">Play All</button>
+        <button id="play-button" class="btn btn-lg btn-primary">Play All
+        </button>
+        <h3 class="songname"></h3>
       </h1>
+      <p>Please enter notes in this format "notes*beats" e.g "A*1 C#*2 D*4")</p>
 
       <!-- Song queue -->
-      <ul id="song-queue">
+      <ul id="song-queue" >
+
       </ul>
 
-      <!-- Song form -->
+
+      <!-- Song name form -->
       <form id='song-form'>
-        <input name="notes" class="form-control" type="text" placeholder="Enter song notes..."/>
+        <input id="name" name="songname" class="form-control" type="text" placeholder="Enter song name..."/>
+
+        <input id="notes" class="form-control" type="text" placeholder="Enter song notes..."/>
         <input class="btn btn-default" type="submit" value="Add Song">
       </form>
+
 
     </div>
   </body>

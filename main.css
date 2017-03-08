@@ -5,7 +5,9 @@
   border: 2px dashed #282828;
   border-radius: 4px;
   padding: 5px;
+  background-color: aliceblue
 }
+
 
 #song-queue li {
   border-color: #282828;
@@ -22,6 +24,14 @@
   max-width: 500px;
   margin-right: 1em;
   float: left;
+  background-color: wheat
+}
+
+#song-name-form input[name="songname"]{
+  max-width: 500px;
+  margin-right: 1em;
+  float: left;
+  background-color: green
 }
 
 #play-button {
